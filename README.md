@@ -1,4 +1,4 @@
-# Passos para Preparação de criação e desenvolvimento de projetos (Frontend e Backend)
+# Passos para Preparação de criação e desenvolvimento de projetos (Backend)
 
 ## Projetos serão desenvolvidos no padrão camadas. 
 
