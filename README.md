@@ -116,18 +116,27 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 * Modelo de domínio e camadas da aplicação do banco de dados até as requisições. 
 > 1. Entities 
-> 2. Mapeamento Objeto Relacional (ORM - JPA)
-> 3. Criar o repositorio (Repository)
-> 4. Criar a camada de Serviço (Service)
-> 5. Criar o DTO
-> 6. Criar o controlador (Controller / REST)
+> 2. Mapeamento Objeto Relacional (ORM - JPA) e Mapear as ASSOCIAÇÕES 
+> 3. SEEDING do Banco de Dados
+> 4. Criar o repositorio (Repository)
+> 5. Criar a camada de Serviço (Service)
+> 6. Criar o DTO
+> 7. Criar o controlador (Controller / REST)
 
-* Criar endpoints na camada controlador REST (de acordo com o projeto )
+* Criar no SERVICE (As operações com Banco de Dados) e endpoints na camada controlador REST (de acordo com o projeto)
 > 1. [GET]
 > 2. [POST]
 > 3. [PUT]
 > 4. [DELETE] 
 > 5. Abir o POSTMAN e criar as requisições para testar. 
+
+## IMPLANTAÇÃO DA SEGURANÇA DO PROJETO (BeanVlidation, Spring Security, Oauth e etc.)
+> 1. passo.............................
+> 2. passo.............................
+> 3. passo.............................
+> 4. passo.............................
+> 5. passo.............................
+
 
 ## IMPLANTAÇÃO DO BACKEND NO HEROKU 
 > 1. Criar app no Heroku
