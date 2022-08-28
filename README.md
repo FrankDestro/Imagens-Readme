@@ -134,7 +134,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 ## IMPLANTAÇÃO DA SEGURANÇA DO PROJETO (BeanValidation, Spring Security, Oauth e etc.)
 
+![security1](https://github.com/FrankDestro/Project-preparation/blob/main/Slide1.PNG)
 
+![security2](https://github.com/FrankDestro/Project-preparation/blob/main/Slide2.PNG)
 
 ## IMPLANTAÇÃO DO BACKEND NO HEROKU 
 > 1. Criar app no Heroku
