@@ -133,23 +133,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 
 ## IMPLANTAÇÃO DA SEGURANÇA DO PROJETO (BeanValidation, Spring Security, Oauth e etc.)
-> 1. Implementação do ByCrypt (para criptografar a senha do usuario) - entities User
-> 2. Implementação do BeanValidation
-```js
-private Long id;
-	@Size(min = 5, max = 60, message = "Deve ter entre 5 e 60 caracteres")
-	@NotBlank(message = "Campo requerido")
-	private String name;
-	@NotBlank(message = "Campo requerido")
-	private String description;
-	@FutureOrPresent(message = "Colocar uma data presente ou futura")
-	private Date initialDate;
-	@Future(message = "Colocar uma data futura")
-	private Date dueData;
-```
-> 3. Customizar as exceções dos erros de validação - ValidationErrors
-> 4. passo.............................
-> 5. passo.............................
+
+
 
 ## IMPLANTAÇÃO DO BACKEND NO HEROKU 
 > 1. Criar app no Heroku
