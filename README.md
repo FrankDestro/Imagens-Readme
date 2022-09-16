@@ -56,7 +56,13 @@ spring.jpa.hibernate.ddl-auto=none
 ### application-prod.properties
 
 ```html
-spring.datasource.url=${DATABASE_URL}
+spring.datasource.url=${DB_URL}
+spring.datasource.username=${DB_USERNAME}
+spring.datasource.password=${DB_PASSWORD}
+
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
+spring.jpa.hibernate.ddl-auto=none
 ```
 
 ### system.properties - Criar na raiz do projeto 
@@ -153,4 +159,11 @@ heroku git:remote -a <nome-do-app>
 git remote -v
 git subtree push --prefix backend heroku main
 ```
-
+## Arquivo DockerFile para gerar um imagem. 
+```js
+FROM openjdk:11
+VOLUME /tmp
+EXPOSE 8080
+ADD ./target/dscatalog-0.0.1-SNAPSHOT.jar dscatalog.jar
+ENTRYPOINT ["java","-jar","/dscatalog.jar"]
+```
