@@ -118,7 +118,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 * Modelo de domínio e camadas da aplicação do banco de dados até as requisições. 
 > 1. Entities 
 > 2. Mapeamento Objeto Relacional (ORM - JPA) e Mapear as ASSOCIAÇÕES 
-> 3. SEEDING do Banco de Dados
+> 3. Seeding do Banco de Dados
 > 4. Criar o repositorio (Repository)
 > 5. Criar a camada de Serviço (Service)
 > 6. Criar o DTO
