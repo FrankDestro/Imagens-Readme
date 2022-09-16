@@ -19,6 +19,17 @@ spring.profiles.active=test
 
 spring.jpa.open-in-view=false
 ```
+```js
+spring.profiles.active=${APP_PROFILE:test}
+
+spring.jpa.open-in-view=false
+
+security.oauth2.client.client-id=${CLIENT_ID:dscatalog}
+security.oauth2.client.client-secret=${CLIENT_SECRET:dscatalog123}
+
+jwt.secret=${JWT_SECRET:MY-JWT-SECRET}
+jwt.duration=${JWT_DURATION:86400}
+```
 
 ### application-test.properties
 
@@ -51,6 +62,11 @@ spring.datasource.password=1234567
 
 spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
 spring.jpa.hibernate.ddl-auto=none
+```
+```js
+spring.datasource.url=${DB_URL}
+spring.datasource.username=${DB_USERNAME}
+spring.datasource.password=${DB_PASSWORD}
 ```
 
 ### application-prod.properties
